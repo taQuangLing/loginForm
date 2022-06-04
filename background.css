@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#conteiner{
+    background: #d6fff6;
+    margin: 0 auto;
+    min-width: 450px;
+    max-width: 600px;
+    height: auto;
+}
+.top{
+    display: flex;
+    width: 100%;
+    background: white;
+}
+.top_left{
+    display: flex;
+    width: 350px;
+    height: auto;
+    float: left;
+    padding-left: 15px;
+}
+.sign_up, .sign_in{
+    width: 48%;
+    height: 40px;
+    background: #8aff75 ;
+    border-radius: 7px;
+    display: flex;
+    float: left;
+    margin: 5px;
+    border: 0;
+}
+#sign_up_t, #sign_in_t{
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.sign_up a, .sign_in a{
+    margin: 0 auto;
+}
+.body{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#form2{
+    display: none;
+}
+.body_child{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    border-bottom: solid 1px black;
+    margin-bottom: 40px;
+}
+.information .dang_ky{
+    margin: 0 auto;
+    width: 90%;
+}
+.header span{
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+}  
+.name, .password, .email, .age, .job, .sex, .memorize, .forgot_password{
+    display: flex;
+    margin: 20px 0 20px 0;
+} 
+#in4{
+    width: 40%;
+    float : left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.information input{
+    float: right;
+    width: 50%;
+    padding: 5px 5px 5px 10px;
+    border: solid 2px black;
+    border-radius: 7px;
+    height: 40px;
+}
+#vx{
+    width: 15%;
+}
+.vx{
+    width: 10%;
+    height: 30px;
+    margin: auto;
+}
+.vx span{
+    background-image: url();
+    background-size: 30px;
+    background-position-y: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: 20px;
+    float:none;
+    height: auto;
+}
+#radio{
+    margin-top: 5px;
+}
+.dang_ky{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+input[type=submit]{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px;
+    background: #67ca5b;
+    border-radius: 7px;
+    color: #fdffff;
+    margin-bottom: 20px;
+}
+.chu_thich{
+    display: flex;
+    padding-bottom: 10px;
+}
+.chu_thich span{
+    margin: 0 auto;
+}
+input::-webkit-input-placeholder{
+    font-style: italic;
+}
+input[id="email"]::-webkit-input-placeholder{
+    text-align: right;
+}
+.sign_up{
+    margin-bottom: 0px;
+    height: 45px;
+    background: #d6fff6;
+    border-radius: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.chu_thich #ki_nhap{
+    border: none;
+    background: #d6fff6;
+    font-weight: bold;
+}
